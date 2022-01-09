@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+
+body {
+    background: rgb(20, 20, 20);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(0, 0, 0);
+    padding: 7px;
+    text-align: center;
+}
+
+div {
+    background: rgb(70, 255, 85);
+    margin: auto;
+    width: 100px;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer {
+    background: rgb(0, 0, 0);
+    font-family: comfortaa;
+    text-align: left;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: rgb(255, 0, 0);
+}
+.logo a {
+    background-image: url("images/logo.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 60px;
+    text-indent: -99999px;
+    width: 60px;
+}
+ul .nav {
+    font-size: 18px;
+    font-family: Comfortaa;
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    top: 25px;
+}
+.part {
+    font-size: 40px;
+    background: rgb(20, 20, 20);
+    text-align: center;
+    padding: 20px;
+    color:rgb(255, 255, 255)
+}
+.part h1 {
+    font-size: 65px;
+    font-family: Comfortaa;
+    font-weight: 100;
+    position: relative;
+    top: 20px
+}
+.part h2 {
+    font-size: 40px;
+    font-family: Comfortaa;
+    font-weight: 100;
+    position: relative;
+    bottom: 15px;
+}
+.main {
+    margin: 0;
+    padding: 0;
+    background: rgb(214, 214, 214);
+    height: 1000px;
+    color:rgb(22, 22, 22);
+}
+.main h1 {
+    font-size: 40px;
+    font-family: Arial;
+    position: relative;
+    font-weight: 100;
+    text-align: center;
+}
+.main h2 {
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: 100;
+    line-height: 25px;
+    position: relative;
+    bottom: 7px;
+    padding: 50px 300px 0px 897px;
+}
+.main h4 {
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: 100;
+    line-height: 25px;
+    position: relative;
+    bottom: 7px;
+    padding: 1px 300px 0px 897px;
+}
+.notfrog {
+    max-height: 400px;
+    position: relative;
+    bottom:450px;
+    left: 200px;
+}
+.about{
+    top: 45px;
+}
+.projects {
+    padding: 20px 0 0 26px;
+}
