@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 
 :root {  
-    --purple: rgb(123, 31, 162);
-    --violet: rgb(103, 58, 183);
-    --pink: rgb(244, 143, 177);
+    --cyan: rgb(95, 249, 255);
+    --green: rgb(52, 227, 175);
+    --teal: rgb(41, 181, 139);
   }
   
   @keyframes background-pan {
@@ -39,10 +39,10 @@
     animation: background-pan 3s linear infinite;
     background: linear-gradient(
       to right,
-      var(--purple),
-      var(--violet),
-      var(--pink),
-      var(--purple)
+      var(--cyan),
+      var(--green),
+      var(--teal),
+      var(--cyan)
     );
     background-size: 200%;
     -webkit-background-clip: text;
